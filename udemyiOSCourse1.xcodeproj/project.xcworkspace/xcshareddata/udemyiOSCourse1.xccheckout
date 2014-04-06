@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C14CAFE8-9D98-45A1-9665-10D882B2FFCB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>udemyiOSCourse1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8A8451A9-24E1-4839-BD7D-2E09A4D59D5F</key>
+		<string>https://github.com/simara001/udemyiOSCourse.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>udemyiOSCourse1.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8A8451A9-24E1-4839-BD7D-2E09A4D59D5F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/simara001/udemyiOSCourse.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8A8451A9-24E1-4839-BD7D-2E09A4D59D5F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8A8451A9-24E1-4839-BD7D-2E09A4D59D5F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>udemyiOSCourse</string>
+		</dict>
+	</array>
+</dict>
+</plist>
