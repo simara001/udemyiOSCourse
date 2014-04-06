@@ -21,7 +21,21 @@
 }
 
 - (IBAction)buttonWasPressed:(id)sender {
-    self.labelMain.text = @"Hello World";
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Success"
+                                                    message:[NSString stringWithFormat:@"Welcome %@!", self.textUsername.text]
+                                                   delegate:self
+                                          cancelButtonTitle:@"Ok"
+                                          otherButtonTitles:nil, nil];
+    [alert show];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    if (textField == self.textUsername) {
+        [self.textPassword becomeFirstResponder];
+    } else if (textField == self.textPassword) {
+        [self buttonWasPressed:self];
+    }
+    return YES;
 }
 
 @end
