@@ -17,8 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
 }
+
+#pragma mark - Custom Methods
 
 - (IBAction)buttonWasPressed:(id)sender {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Success"
@@ -29,6 +30,14 @@
     [alert show];
 }
 
+- (IBAction)tapWasRecognized:(id)sender {
+    [self.textUsername resignFirstResponder];
+    [self.textPassword resignFirstResponder];
+}
+
+
+#pragma mark - UITextFieldDelegate Implementation
+
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     if (textField == self.textUsername) {
         [self.textPassword becomeFirstResponder];
@@ -37,5 +46,7 @@
     }
     return YES;
 }
+
+
 
 @end

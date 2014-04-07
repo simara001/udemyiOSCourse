@@ -19,6 +19,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blur2" translatesAutoresizingMaskIntoConstraints="NO" id="nI9-Uy-MY6">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPY-pK-o0N">
                                 <rect key="frame" x="58" y="196" width="205" height="30"/>
@@ -50,6 +51,10 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Uq3-9C-lKa" appends="YES" id="H9p-kc-KG3"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="textPassword" destination="Iy6-z9-GKO" id="chd-81-WJG"/>
@@ -57,6 +62,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Uq3-9C-lKa">
+                    <connections>
+                        <action selector="tapWasRecognized:" destination="vXZ-lx-hvc" id="wdK-K0-AWT"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="401" y="143"/>
         </scene>
